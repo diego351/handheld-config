@@ -39,9 +39,14 @@ After that, if you want to undock just run `python undock.py` with Administrator
 
 Replacing settings should work as I tested it. Docking/undocking is not tested by me as I'm still waiting for my device to arrive. Will be tested and updated by the end of September. Snapshot feature is on the way. Configuration file format might change as the feature arrive, sorry.
 
+## Known issues
+
+I just got let know that the library the software is using works only with nvidia, will move to pyadl as soon as I get my windows device by the end of september to support other devices too
+
 ## TODO
 
 1. Automatic snapshot feature that will help you configuring the app based on current settings
 2. Make it more user friendly, so user doesn't need to touch command line to use
 3. Integration with PCGamingWiki
 4. Solve caveat needing doing bootup nessescarly with Oculink egpu connected.
+5. Move gputil to pyadl to detect amd devices too. Will do it when I get windows device
