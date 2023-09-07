@@ -4,6 +4,6 @@ GAME_PROFILES = [
     {
         "d_config_path": r"dgpu/mafiade/Saves",
         "i_config_path": r"igpu/mafiade/Saves",
-        "destination": r"/Users/jnowak/projects/configs/test/Mafia Definitive Edition",
+        "destination": r"C:/Users/Jakub Nowak/Documents/My Games/Mafia Definitive Edition",
     }
 ]
