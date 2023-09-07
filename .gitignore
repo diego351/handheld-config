@@ -145,3 +145,4 @@ cython_debug/
 
 dgpu/
 igpu/
+test/

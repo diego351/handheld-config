@@ -1,10 +1,13 @@
 import subprocess
 
 import config
+from helpers import DGPU, is_admin, set_global_profile_files
 
-FORCE_ADMIN_COMMAND = 'if not "%1"=="am_admin" (powershell start -verb runas "%0" am_admin & exit /b)'
+if not is_admin():
+    print('Needs Administrator privileges')
+    exit(1)
 
-enable_gpu_command = f'pnputil /enable-device {config.DGPU_ID}'
-command = f'{FORCE_ADMIN_COMMAND} & {enable_gpu_command}'
+command = f'pnputil /enable-device {config.DGPU_ID}'
 
 subprocess.Popen([command], shell=True)
+set_global_profile_files(DGPU)
