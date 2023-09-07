@@ -29,7 +29,7 @@ For each game check it's configuration directory on [PCGamingWiki](https://www.p
 
 ## Usage
 
-Add to autostart script `python bootup.py`. It will automatically change the all game settings on every boot based on whether discrete gpu is detected. You can restart your pc on every docking/undocking. But you don't have to. This can be done without restart, however, there's a caveat.
+Add to autostart script `python bootup.py`. It will automatically change the all game settings on every boot based on whether discrete gpu is detected. You can force detected gpu with `python bootup.py --force-gpu={dgpu/igpu}` if you need it. You can restart your pc on every docking/undocking. But you don't have to. This can be done without restart, however, there's a caveat.
 
 **During Windows booting Oculink egpu needs to be plugged in.**
 
