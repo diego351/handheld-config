@@ -49,4 +49,4 @@ I just got let know that the library the software is using works only with nvidi
 2. Make it more user friendly, so user doesn't need to touch command line to use
 3. Integration with PCGamingWiki
 4. Solve caveat needing doing bootup nessescarly with Oculink egpu connected.
-5. Move gputil to pyadl to detect amd devices too. Will do it when I get windows device
+5. Add support for AMD graphic with pyadl to detect amd devices too. Will do it when I get windows device
